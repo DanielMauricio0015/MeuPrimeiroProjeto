@@ -1,0 +1,59 @@
+
+
+
+ul{
+    display: flex ;
+    justify-content: space-between;
+    list-style-type: none
+
+}
+a{
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+    padding: 8px;
+}
+/*Links nao visitados*/
+a:link{
+    color: rgb(255, 0, 0);
+}
+/*Links visitados*/
+a:visited{
+    color: rgba(98, 0, 255, 0.185);
+}
+/*Links Hover, passa o cursor sobre o link*/
+a:hover{
+    color: #f70404bd;
+    background: #1d8a02;
+    
+}
+/*Links Ativos, quando clicado*/
+a:active{
+    color: rgb(244, 248, 4);
+}
+
+img{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 5px solid rgb(9, 148, 4);
+    margin: 40px;
+}
+
+.center{
+    text-align: center;
+}
+
+.meio{
+    background: rgb(46, 148, 5);
+    width: 600px;
+    text-align: center;
+    padding: 30px;
+    margin-left: 328px;
+    border: 5px solid rgb(11, 245, 2);
+    
+}
+
+p{
+    font-size: 20px;
+}
+
